@@ -23,6 +23,6 @@ func Calculate(p float64, r float64, t float64) float64 {
 	interest := p * (r / 100) * t
 	log.WithFields(log.Fields{
 		"interest": interest,
-	}).Info("A group of walrus emerges from the ocean")
+	}).Info("release version 2")
 	return interest
 }
